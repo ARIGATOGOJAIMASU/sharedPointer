@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ED67D49529EE95B30012DA97 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED67D49429EE95B30012DA97 /* main.cpp */; };
+		EDD5A39229F12B1300669212 /* SharedPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDD5A39029F12B1300669212 /* SharedPointer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		ED67D49129EE95B30012DA97 /* shared_Pointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = shared_Pointer; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED67D49429EE95B30012DA97 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EDD5A39029F12B1300669212 /* SharedPointer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SharedPointer.cpp; sourceTree = "<group>"; };
+		EDD5A39129F12B1300669212 /* SharedPointer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SharedPointer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				ED67D49429EE95B30012DA97 /* main.cpp */,
+				EDD5A39029F12B1300669212 /* SharedPointer.cpp */,
+				EDD5A39129F12B1300669212 /* SharedPointer.hpp */,
 			);
 			path = shared_Pointer;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD5A39229F12B1300669212 /* SharedPointer.cpp in Sources */,
 				ED67D49529EE95B30012DA97 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
